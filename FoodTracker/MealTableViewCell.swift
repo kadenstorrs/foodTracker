@@ -5,10 +5,14 @@
 //  Created by Kaden Storrs on 9/9/19.
 //  Copyright © 2019 Kaden Storrs. All rights reserved.
 //
-
+ 
 import UIKit
 
 class MealTableViewCell: UITableViewCell {
+    
+    // Table view cells are reused and should be dequesed using a cell identifier.
+    
+    
     
     //MARK: Properties
     @IBOutlet weak var nameLabel: UILabel!
@@ -25,5 +29,5 @@ class MealTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+   
 }
